@@ -174,8 +174,8 @@ img{
 .portItem{
 	top:30px;
 	position: relative;
-    z-index: 1;
-    margin-bottom: -5rem;
+  	  z-index: 1;
+   	 margin-bottom: -5rem;
 	width:35%;
 	float:right;
 	padding:1.5em;
@@ -220,7 +220,7 @@ hr{
     border-radius: 0;
     width: 22px;
     height: 22px;
-    background-color: #fed136;
+    background-color: #000;
 }
  .portText{
 	position: relative;
