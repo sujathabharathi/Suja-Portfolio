@@ -174,8 +174,8 @@ img{
 .portItem{
 	top:30px;
 	position: relative;
-  	  z-index: 1;
-   	 margin-bottom: -5rem;
+    z-index: 1;
+    margin-bottom: -5rem;
 	width:35%;
 	float:right;
 	padding:1.5em;
@@ -621,6 +621,12 @@ footer{text-align:center; font-weight:bold;font-size:14px; padding:1em 0; letter
 	font-weight:400;
 	color:#000;
 }
+.carousel-indicators li {
+    border-radius: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+}
 }
 
 
@@ -659,7 +665,13 @@ footer{text-align:center; font-weight:bold;font-size:14px; padding:1em 0; letter
 }
 
  .nav-pills li:last-child {margin-left:0; margin-top:0;}
-
+.carousel-indicators li {
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    background-color: #000;
+	display:none;
+}
 .timeline-Title{
 	font-size:1em;
 	letter-spacing:1px;
